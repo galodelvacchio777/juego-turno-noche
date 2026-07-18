@@ -13,7 +13,7 @@ Interfaz y Diálogos: Scene2D.
 Mapas: Tiled Map Editor.
 Persistencia de datos: SQLite con API JDBC.
 
-
+### Enlace a la Wiki del Proyecto
 Podés consultar el documento formal de la propuesta, la descripción de mecánicas detalladas y el alcance de "Turno Noche" directamente en la sección Wiki de este repositorio:  **[Acceder a la Wiki del Proyecto](https://github.com/galodelvacchio777/juego-turno-noche/wiki)**
 
 ### Instrucciones de Compilación y Ejecución
