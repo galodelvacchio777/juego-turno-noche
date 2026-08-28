@@ -18,35 +18,32 @@ Videojuego de **terror psicológico y exploración narrativa en 2D** con perspec
 Podés consultar la propuesta formal, los alcances detallados y la planificación del proyecto en nuestra Wiki de GitHub:  
 **[Acceder a la Wiki de la Propuesta](https://github.com/galodelvacchio777/juego-turno-noche/wiki)** [9]
 
----
 
 ### Requisitos Previos
-* **Java JDK 21** instalado de forma obligatoria y configurado en las variables de entorno (`JAVA_HOME`) [4].
+* **JDK:** Java Development Kit (JDK) 21 instalado y configurado.
+* **Lenguaje:** Java 21
 * Se recomienda utilizar **IntelliJ IDEA** como entorno de desarrollo (IDE) para la correcta importación de Gradle [10].
-
----
 
 ### Instrucciones de Instalación y Ejecución
 
 Abrí una terminal en tu computadora y ejecutá los siguientes comandos en orden para clonar, ingresar al directorio y correr el juego:
 
 1. **Clonar el repositorio:**
-   ```bash
-   git clone https://github.com/galodelvacchio777/juego-turno-noche.git
-   ``` [4]
+ 
+   git clone [https://github.com/galodelvacchio777/juego-turno-noche.git](https://github.com/galodelvacchio777/juego-turno-noche.git)
+ 
 
 2. **Ingresar a la carpeta raíz del proyecto:**
-   ```bash
+   
    cd juego-turno-noche
-   ``` [4]
+  
 
 3. **Ejecutar el proyecto (Módulo de Escritorio):**
    * En **Windows (CMD o PowerShell):**
-     ```cmd
+     
      gradlew lwjgl3:run
-     ``` [4]
+     
    * En **Linux / macOS:**
-     ```bash
-     chmod +x gradlew
+     
      ./gradlew lwjgl3:run
-     ``` [4]
+     
